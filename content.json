@@ -1,7 +1,11 @@
 {
-  "contentVersion": 1,
+  "contentVersion": 2,
   "minimumAppVersion": "1.0",
-  "latestOS": { "iOS": "26.5", "iPadOS": "26.5", "macOS": "26.5" },
+  "latestOS": {
+    "iOS": "26.5",
+    "iPadOS": "26.5",
+    "macOS": "26.5"
+  },
   "courses": [
     {
       "id": "iphone-basis",
@@ -9,22 +13,33 @@
       "subtitle": "Leer je iPhone écht kennen, stap voor stap",
       "icon": "iphone.gen3",
       "level": "starter",
-      "deviceTypes": ["iphone"],
+      "deviceTypes": [
+        "iphone"
+      ],
       "lessons": [
         {
           "id": "basis-01-knoppen",
           "title": "Ken je iPhone: knoppen en gebaren",
           "durationMin": 4,
           "blocks": [
-            { "type": "text", "text": "Je iPhone heeft maar een paar knoppen, en toch kan je er alles mee. In deze les overlopen we ze één voor één, plus de veeggebaren die je elke dag gebruikt." },
-            { "type": "steps", "items": [
-              "Zijknop (rechts): kort drukken = scherm aan of uit. Lang drukken = Siri.",
-              "Volumeknoppen (links): geluid harder of stiller. Tijdens het fotograferen werken ze ook als afdrukknop!",
-              "Veeg van onder naar boven: terug naar het beginscherm.",
-              "Veeg van rechtsboven naar beneden: het Bedieningspaneel, met wifi, zaklamp en meer.",
-              "Veeg van linksboven naar beneden: je meldingen."
-            ] },
-            { "type": "tip", "text": "Scherm en zijknop samen indrukken maakt een schermafbeelding. Handig om iets te bewaren of door te sturen!" }
+            {
+              "type": "text",
+              "text": "Je iPhone heeft maar een paar knoppen, en toch kan je er alles mee. In deze les overlopen we ze één voor één, plus de veeggebaren die je elke dag gebruikt."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Zijknop (rechts): kort drukken = scherm aan of uit. Lang drukken = Siri.",
+                "Volumeknoppen (links): geluid harder of stiller. Tijdens het fotograferen werken ze ook als afdrukknop!",
+                "Veeg van onder naar boven: terug naar het beginscherm.",
+                "Veeg van rechtsboven naar beneden: het Bedieningspaneel, met wifi, zaklamp en meer.",
+                "Veeg van linksboven naar beneden: je meldingen."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Scherm en zijknop samen indrukken maakt een schermafbeelding. Handig om iets te bewaren of door te sturen!"
+            }
           ]
         },
         {
@@ -32,13 +47,22 @@
           "title": "Wegwijs in Instellingen",
           "durationMin": 5,
           "blocks": [
-            { "type": "text", "text": "De app Instellingen (het grijze tandwiel) is de sleutelkast van je iPhone. Alles wat je wil aanpassen, vind je hier. Je hoeft niet alles te kennen — als je de zoekfunctie vindt, vind je de rest vanzelf." },
-            { "type": "steps", "items": [
-              "Open Instellingen en trek de lijst een stukje naar beneden: er verschijnt een zoekbalk.",
-              "Typ wat je zoekt in gewone woorden, bijvoorbeeld 'tekstgrootte' of 'beltoon'.",
-              "Tik op het resultaat en je springt meteen naar de juiste plek."
-            ] },
-            { "type": "tip", "text": "Vind je de letters op je iPhone te klein? Zoek in Instellingen naar 'Tekstgrootte' en schuif de regelaar naar rechts. Je ogen zullen je dankbaar zijn." }
+            {
+              "type": "text",
+              "text": "De app Instellingen (het grijze tandwiel) is de sleutelkast van je iPhone. Alles wat je wil aanpassen, vind je hier. Je hoeft niet alles te kennen — als je de zoekfunctie vindt, vind je de rest vanzelf."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Open Instellingen en trek de lijst een stukje naar beneden: er verschijnt een zoekbalk.",
+                "Typ wat je zoekt in gewone woorden, bijvoorbeeld 'tekstgrootte' of 'beltoon'.",
+                "Tik op het resultaat en je springt meteen naar de juiste plek."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Vind je de letters op je iPhone te klein? Zoek in Instellingen naar 'Tekstgrootte' en schuif de regelaar naar rechts. Je ogen zullen je dankbaar zijn."
+            }
           ]
         },
         {
@@ -46,13 +70,22 @@
           "title": "Slimmer berichten sturen en bellen",
           "durationMin": 5,
           "blocks": [
-            { "type": "text", "text": "Bellen en berichten sturen kan iedereen. Maar wist je dat je iPhone je ook kan helpen als je handen vol zijn, of als je een bericht liever inspreekt dan typt?" },
-            { "type": "steps", "items": [
-              "Open Berichten en start een nieuw bericht.",
-              "Tik op het microfoontje rechts in de typbalk en spreek je bericht in — je iPhone typt het voor je uit.",
-              "Controleer de tekst even (soms verstaat hij 'Brugge' als 'brug') en verstuur."
-            ] },
-            { "type": "tip", "text": "Iemand niet kunnen opnemen? Veeg op het belscherm omhoog bij 'Bericht' en de beller krijgt automatisch een sms zoals 'Ik bel je zo terug'." }
+            {
+              "type": "text",
+              "text": "Bellen en berichten sturen kan iedereen. Maar wist je dat je iPhone je ook kan helpen als je handen vol zijn, of als je een bericht liever inspreekt dan typt?"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Open Berichten en start een nieuw bericht.",
+                "Tik op het microfoontje rechts in de typbalk en spreek je bericht in — je iPhone typt het voor je uit.",
+                "Controleer de tekst even (soms verstaat hij 'Brugge' als 'brug') en verstuur."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Iemand niet kunnen opnemen? Veeg op het belscherm omhoog bij 'Bericht' en de beller krijgt automatisch een sms zoals 'Ik bel je zo terug'."
+            }
           ]
         },
         {
@@ -60,13 +93,22 @@
           "title": "Foto's nemen en terugvinden",
           "durationMin": 5,
           "blocks": [
-            { "type": "text", "text": "Duizenden foto's en net díe ene niet vinden? De app Foto's is slimmer dan je denkt: hij herkent personen, plaatsen en zelfs wat er op de foto staat." },
-            { "type": "steps", "items": [
-              "Open de app Foto's en tik op de zoekfunctie.",
-              "Typ bijvoorbeeld 'hond', 'strand' of 'Brugge' — je iPhone toont alle foto's die passen.",
-              "Zoek op een naam? Tik op een gezicht in een foto, geef die persoon één keer een naam, en voortaan vind je iedereen terug."
-            ] },
-            { "type": "tip", "text": "Per ongeluk een foto gewist? Kijk in het album 'Recent verwijderd' — daar blijven foto's nog 30 dagen staan." }
+            {
+              "type": "text",
+              "text": "Duizenden foto's en net díe ene niet vinden? De app Foto's is slimmer dan je denkt: hij herkent personen, plaatsen en zelfs wat er op de foto staat."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Open de app Foto's en tik op de zoekfunctie.",
+                "Typ bijvoorbeeld 'hond', 'strand' of 'Brugge' — je iPhone toont alle foto's die passen.",
+                "Zoek op een naam? Tik op een gezicht in een foto, geef die persoon één keer een naam, en voortaan vind je iedereen terug."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Per ongeluk een foto gewist? Kijk in het album 'Recent verwijderd' — daar blijven foto's nog 30 dagen staan."
+            }
           ]
         },
         {
@@ -74,15 +116,27 @@
           "title": "Back-up: je digitale reserveband",
           "durationMin": 6,
           "blocks": [
-            { "type": "text", "text": "Een gestolen of kapotte iPhone is vervelend. Je foto's van de kleinkinderen kwijt zijn is erger. Een back-up zorgt dat alles veilig staat, wat er ook met je toestel gebeurt. Dit is de belangrijkste les van deze cursus." },
-            { "type": "steps", "items": [
-              "Open Instellingen en tik bovenaan op je naam.",
-              "Tik op 'iCloud' en dan op 'iCloud-reservekopie'.",
-              "Zet 'Maak reservekopie van deze iPhone' aan.",
-              "Kijk onderaan wanneer de laatste reservekopie gemaakt is. Staat daar een recente datum? Dan zit je goed."
-            ] },
-            { "type": "tip", "text": "Je iPhone maakt 's nachts automatisch een back-up als hij aan de lader ligt en wifi heeft. Leg hem dus 's nachts gewoon aan het stopcontact." },
-            { "type": "text", "text": "Is je iCloud-opslag vol? Kom gerust langs bij Kraks — we bekijken samen wat de beste oplossing is voor jouw situatie, zonder dat je meteen moet betalen voor opslag die je niet nodig hebt." }
+            {
+              "type": "text",
+              "text": "Een gestolen of kapotte iPhone is vervelend. Je foto's van de kleinkinderen kwijt zijn is erger. Een back-up zorgt dat alles veilig staat, wat er ook met je toestel gebeurt. Dit is de belangrijkste les van deze cursus."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Open Instellingen en tik bovenaan op je naam.",
+                "Tik op 'iCloud' en dan op 'iCloud-reservekopie'.",
+                "Zet 'Maak reservekopie van deze iPhone' aan.",
+                "Kijk onderaan wanneer de laatste reservekopie gemaakt is. Staat daar een recente datum? Dan zit je goed."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Je iPhone maakt 's nachts automatisch een back-up als hij aan de lader ligt en wifi heeft. Leg hem dus 's nachts gewoon aan het stopcontact."
+            },
+            {
+              "type": "text",
+              "text": "Is je iCloud-opslag vol? Kom gerust langs bij Kraks — we bekijken samen wat de beste oplossing is voor jouw situatie, zonder dat je meteen moet betalen voor opslag die je niet nodig hebt."
+            }
           ]
         },
         {
@@ -90,14 +144,26 @@
           "title": "Batterij en opladen: fabels en feiten",
           "durationMin": 5,
           "blocks": [
-            { "type": "text", "text": "Over batterijen bestaan veel fabels. 'Je moet hem helemaal leeg laten gaan', 'opladen 's nachts is slecht'... Tijd voor duidelijkheid, van de mensen die elke week batterijen vervangen." },
-            { "type": "text", "text": "De waarheid: moderne iPhones regelen het opladen zelf heel slim. 's Nachts opladen mag gewoon. Wat een batterij wél sneller doet verouderen: extreme hitte (een autodashboard in de zomer) en constant op 0% vallen." },
-            { "type": "steps", "items": [
-              "Benieuwd naar de gezondheid van jouw batterij? Open Instellingen.",
-              "Tik op 'Batterij' en dan op 'Batterijconditie'.",
-              "Staat het percentage boven de 80%? Prima. Eronder? Kom eens langs, dan meten we het exact op."
-            ] },
-            { "type": "tip", "text": "Batterij bijna leeg en geen lader mee? Zet de Energiebesparingsmodus aan via het Bedieningspaneel — je haalt er makkelijk een paar uur extra uit." }
+            {
+              "type": "text",
+              "text": "Over batterijen bestaan veel fabels. 'Je moet hem helemaal leeg laten gaan', 'opladen 's nachts is slecht'... Tijd voor duidelijkheid, van de mensen die elke week batterijen vervangen."
+            },
+            {
+              "type": "text",
+              "text": "De waarheid: moderne iPhones regelen het opladen zelf heel slim. 's Nachts opladen mag gewoon. Wat een batterij wél sneller doet verouderen: extreme hitte (een autodashboard in de zomer) en constant op 0% vallen."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Benieuwd naar de gezondheid van jouw batterij? Open Instellingen.",
+                "Tik op 'Batterij' en dan op 'Batterijconditie'.",
+                "Staat het percentage boven de 80%? Prima. Eronder? Kom eens langs, dan meten we het exact op."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Batterij bijna leeg en geen lader mee? Zet de Energiebesparingsmodus aan via het Bedieningspaneel — je haalt er makkelijk een paar uur extra uit."
+            }
           ]
         }
       ],
@@ -109,20 +175,31 @@
       "subtitle": "Haal alles uit de camera van je iPhone",
       "icon": "camera.fill",
       "level": "starter",
-      "deviceTypes": ["iphone"],
+      "deviceTypes": [
+        "iphone"
+      ],
       "lessons": [
         {
           "id": "foto-01-camera-app",
           "title": "De camera-app leren kennen",
           "durationMin": 4,
           "blocks": [
-            { "type": "text", "text": "De beste camera is die je altijd bij hebt — en dat is je iPhone. Voor we mooie foto's maken, leren we de camera razendsnel openen. Want het perfecte moment wacht niet." },
-            { "type": "steps", "items": [
-              "Vanaf het vergrendelscherm: houd het camera-icoontje rechtsonder even ingedrukt, of veeg naar links. Geen code nodig!",
-              "Wissel tussen fotostanden door boven de sluiterknop naar links of rechts te vegen: Video, Foto, Portret...",
-              "Knijp met twee vingers of tik op ,5 / 1x / 2x om in en uit te zoomen."
-            ] },
-            { "type": "tip", "text": "Gebruik de volumeknoppen als afdrukknop. Dat voelt als een echt fototoestel en voorkomt bewogen foto's." }
+            {
+              "type": "text",
+              "text": "De beste camera is die je altijd bij hebt — en dat is je iPhone. Voor we mooie foto's maken, leren we de camera razendsnel openen. Want het perfecte moment wacht niet."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Vanaf het vergrendelscherm: houd het camera-icoontje rechtsonder even ingedrukt, of veeg naar links. Geen code nodig!",
+                "Wissel tussen fotostanden door boven de sluiterknop naar links of rechts te vegen: Video, Foto, Portret...",
+                "Knijp met twee vingers of tik op ,5 / 1x / 2x om in en uit te zoomen."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Gebruik de volumeknoppen als afdrukknop. Dat voelt als een echt fototoestel en voorkomt bewogen foto's."
+            }
           ]
         },
         {
@@ -130,13 +207,22 @@
           "title": "Scherpstellen en belichten",
           "durationMin": 5,
           "blocks": [
-            { "type": "text", "text": "Het verschil tussen een grauwe foto en een prachtige? Vaak één tik op het scherm. Je iPhone kiest zelf waar hij op scherpstelt, maar jij weet beter wat het onderwerp is." },
-            { "type": "steps", "items": [
-              "Richt je camera en tik op het scherm precies op je onderwerp — een geel kadertje verschijnt.",
-              "Naast het kadertje staat een zonnetje: schuif het omhoog voor een lichtere foto, omlaag voor donkerder.",
-              "Wil je dat de instelling blijft staan? Houd je vinger even op het onderwerp tot 'AE/AF-vergrendeling' verschijnt."
-            ] },
-            { "type": "tip", "text": "Tegenlicht (raam achter je onderwerp)? Tik op het gezicht en schuif het zonnetje wat omhoog. Weg silhouet!" }
+            {
+              "type": "text",
+              "text": "Het verschil tussen een grauwe foto en een prachtige? Vaak één tik op het scherm. Je iPhone kiest zelf waar hij op scherpstelt, maar jij weet beter wat het onderwerp is."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Richt je camera en tik op het scherm precies op je onderwerp — een geel kadertje verschijnt.",
+                "Naast het kadertje staat een zonnetje: schuif het omhoog voor een lichtere foto, omlaag voor donkerder.",
+                "Wil je dat de instelling blijft staan? Houd je vinger even op het onderwerp tot 'AE/AF-vergrendeling' verschijnt."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Tegenlicht (raam achter je onderwerp)? Tik op het gezicht en schuif het zonnetje wat omhoog. Weg silhouet!"
+            }
           ]
         },
         {
@@ -144,14 +230,23 @@
           "title": "Portretmodus: dat professionele wazige",
           "durationMin": 4,
           "blocks": [
-            { "type": "text", "text": "Die foto's waar de persoon haarscherp is en de achtergrond dromerig wazig? Dat heet scherptediepte, en jouw iPhone doet het met één veegbeweging." },
-            { "type": "steps", "items": [
-              "Open de camera en veeg naar de stand 'Portret'.",
-              "Houd 1 à 2 meter afstand van je onderwerp — de camera zegt het zelf als je te dichtbij bent.",
-              "Wacht tot het kader geel wordt en druk af.",
-              "Achteraf aanpassen? Open de foto, tik op 'Wijzig' en verander de wazigheid met de f-regelaar."
-            ] },
-            { "type": "tip", "text": "Portretmodus werkt niet alleen op mensen. Probeer het eens op je huisdier, een bloem of een glas op een terrasje in de zon." }
+            {
+              "type": "text",
+              "text": "Die foto's waar de persoon haarscherp is en de achtergrond dromerig wazig? Dat heet scherptediepte, en jouw iPhone doet het met één veegbeweging."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Open de camera en veeg naar de stand 'Portret'.",
+                "Houd 1 à 2 meter afstand van je onderwerp — de camera zegt het zelf als je te dichtbij bent.",
+                "Wacht tot het kader geel wordt en druk af.",
+                "Achteraf aanpassen? Open de foto, tik op 'Wijzig' en verander de wazigheid met de f-regelaar."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Portretmodus werkt niet alleen op mensen. Probeer het eens op je huisdier, een bloem of een glas op een terrasje in de zon."
+            }
           ]
         },
         {
@@ -159,13 +254,22 @@
           "title": "Nachtmodus en weinig licht",
           "durationMin": 4,
           "blocks": [
-            { "type": "text", "text": "Brugge bij valavond, kerstlichtjes, een verjaardagstaart met kaarsjes: net de mooiste momenten hebben het minste licht. Nachtmodus lost dat op — als je weet hoe je hem gebruikt." },
-            { "type": "steps", "items": [
-              "In het donker verschijnt automatisch een geel maantje linksboven in de camera-app.",
-              "Zie je het maantje? Druk af en houd je iPhone een paar tellen zo stil mogelijk.",
-              "De teller bij het maantje (1s, 3s...) toont hoelang je moet stilhouden. Leun tegen een muur voor extra stabiliteit."
-            ] },
-            { "type": "tip", "text": "De flits laat je beter uit staan: nachtmodus geeft bijna altijd een mooier en natuurlijker resultaat dan dat harde flitslicht." }
+            {
+              "type": "text",
+              "text": "Brugge bij valavond, kerstlichtjes, een verjaardagstaart met kaarsjes: net de mooiste momenten hebben het minste licht. Nachtmodus lost dat op — als je weet hoe je hem gebruikt."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "In het donker verschijnt automatisch een geel maantje linksboven in de camera-app.",
+                "Zie je het maantje? Druk af en houd je iPhone een paar tellen zo stil mogelijk.",
+                "De teller bij het maantje (1s, 3s...) toont hoelang je moet stilhouden. Leun tegen een muur voor extra stabiliteit."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "De flits laat je beter uit staan: nachtmodus geeft bijna altijd een mooier en natuurlijker resultaat dan dat harde flitslicht."
+            }
           ]
         },
         {
@@ -173,15 +277,24 @@
           "title": "Bewerken: van goed naar prachtig",
           "durationMin": 6,
           "blocks": [
-            { "type": "text", "text": "Elke proffotograaf bewerkt zijn foto's na. Dat is geen valsspelen, dat hoort erbij. En de app Foto's heeft alles aan boord — je hoeft er niets voor te installeren." },
-            { "type": "steps", "items": [
-              "Open een foto en tik op 'Wijzig'.",
-              "Probeer eerst het toverstafje ('Verbeter automatisch') — vaak is dat al genoeg.",
-              "Veeg door de regelaars: Belichting, Schittering, Contrast... Schuif en kijk wat er gebeurt.",
-              "Scheve horizon? Tik op het bijsnij-icoon, en hij wordt vaak al automatisch rechtgezet.",
-              "Niet tevreden? 'Herstel origineel' zet altijd alles terug. Je kan níets definitief kapotmaken."
-            ] },
-            { "type": "tip", "text": "Ook een foto die je doorgestuurd kreeg via WhatsApp kan je zo bewerken. Bewaar ze eerst in Foto's." }
+            {
+              "type": "text",
+              "text": "Elke proffotograaf bewerkt zijn foto's na. Dat is geen valsspelen, dat hoort erbij. En de app Foto's heeft alles aan boord — je hoeft er niets voor te installeren."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Open een foto en tik op 'Wijzig'.",
+                "Probeer eerst het toverstafje ('Verbeter automatisch') — vaak is dat al genoeg.",
+                "Veeg door de regelaars: Belichting, Schittering, Contrast... Schuif en kijk wat er gebeurt.",
+                "Scheve horizon? Tik op het bijsnij-icoon, en hij wordt vaak al automatisch rechtgezet.",
+                "Niet tevreden? 'Herstel origineel' zet altijd alles terug. Je kan níets definitief kapotmaken."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Ook een foto die je doorgestuurd kreeg via WhatsApp kan je zo bewerken. Bewaar ze eerst in Foto's."
+            }
           ]
         },
         {
@@ -189,14 +302,23 @@
           "title": "Albums maken en foto's delen",
           "durationMin": 5,
           "blocks": [
-            { "type": "text", "text": "Foto's zijn er om te delen. Maar 40 foto's één voor één doorsturen via WhatsApp? Dat kan slimmer, mooier en in betere kwaliteit." },
-            { "type": "steps", "items": [
-              "Selecteer meerdere foto's: tik op 'Selecteer' en veeg met je vinger over de foto's.",
-              "Tik op het deelicoon (vierkantje met pijltje omhoog).",
-              "Kies 'iCloud-link kopieer' om één linkje te maken dat je doorstuurt — de ontvanger ziet alles in volle kwaliteit.",
-              "Of maak een gedeeld album: iedereen die je uitnodigt kan foto's bekijken én toevoegen. Ideaal voor familiefeesten."
-            ] },
-            { "type": "tip", "text": "Een gedeeld album met de hele familie voor de kleinkinderen: iedereen voegt toe, iedereen geniet mee. Kom langs als je hulp wil bij het opzetten — zo gepiept." }
+            {
+              "type": "text",
+              "text": "Foto's zijn er om te delen. Maar 40 foto's één voor één doorsturen via WhatsApp? Dat kan slimmer, mooier en in betere kwaliteit."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Selecteer meerdere foto's: tik op 'Selecteer' en veeg met je vinger over de foto's.",
+                "Tik op het deelicoon (vierkantje met pijltje omhoog).",
+                "Kies 'iCloud-link kopieer' om één linkje te maken dat je doorstuurt — de ontvanger ziet alles in volle kwaliteit.",
+                "Of maak een gedeeld album: iedereen die je uitnodigt kan foto's bekijken én toevoegen. Ideaal voor familiefeesten."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Een gedeeld album met de hele familie voor de kleinkinderen: iedereen voegt toe, iedereen geniet mee. Kom langs als je hulp wil bij het opzetten — zo gepiept."
+            }
           ]
         }
       ],
@@ -208,21 +330,34 @@
       "subtitle": "Bescherm jezelf tegen oplichters en ongelukken",
       "icon": "lock.shield.fill",
       "level": "starter",
-      "deviceTypes": ["iphone", "ipad", "mac"],
+      "deviceTypes": [
+        "iphone",
+        "ipad",
+        "mac"
+      ],
       "lessons": [
         {
           "id": "veilig-01-codes",
           "title": "Sterke codes en Face ID",
           "durationMin": 5,
           "blocks": [
-            { "type": "text", "text": "Je iPhone bevat je foto's, je bankapp en je berichten. De toegangscode is de sleutel tot dat alles — en '123456' of je geboortejaar is als een huissleutel onder de deurmat." },
-            { "type": "steps", "items": [
-              "Ga naar Instellingen > Face ID en toegangscode.",
-              "Kies 'Wijzig toegangscode' en tik op 'Opties voor toegangscode' voor een zescijferige of alfanumerieke code.",
-              "Kies iets wat jij makkelijk onthoudt maar niemand kan raden. Dus niet je geboortedatum of postcode.",
-              "Stel ook Face ID (gezichtsherkenning) in: veiliger én makkelijker, want je hoeft je code amper nog te typen."
-            ] },
-            { "type": "tip", "text": "Face ID werkt ook met bril, hoed of baard. Het leert je gezicht steeds beter kennen — je hoeft dus niets opnieuw in te stellen na een nieuwe bril." }
+            {
+              "type": "text",
+              "text": "Je iPhone bevat je foto's, je bankapp en je berichten. De toegangscode is de sleutel tot dat alles — en '123456' of je geboortejaar is als een huissleutel onder de deurmat."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Ga naar Instellingen > Face ID en toegangscode.",
+                "Kies 'Wijzig toegangscode' en tik op 'Opties voor toegangscode' voor een zescijferige of alfanumerieke code.",
+                "Kies iets wat jij makkelijk onthoudt maar niemand kan raden. Dus niet je geboortedatum of postcode.",
+                "Stel ook Face ID (gezichtsherkenning) in: veiliger én makkelijker, want je hoeft je code amper nog te typen."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Face ID werkt ook met bril, hoed of baard. Het leert je gezicht steeds beter kennen — je hoeft dus niets opnieuw in te stellen na een nieuwe bril."
+            }
           ]
         },
         {
@@ -230,15 +365,27 @@
           "title": "Phishing herkennen: de 4 alarmsignalen",
           "durationMin": 6,
           "blocks": [
-            { "type": "text", "text": "'Uw pakje kon niet geleverd worden, betaal €1 verzendkosten.' 'Uw bankkaart vervalt vandaag.' Klinkt bekend? Oplichters sturen miljoenen van zulke berichten. Wie de trucs kent, trapt er niet in." },
-            { "type": "steps", "items": [
-              "Alarmsignaal 1 — Haast: 'binnen 24 uur', 'onmiddellijk', 'laatste kans'. Echte bedrijven jagen je nooit op.",
-              "Alarmsignaal 2 — Geld of codes: er wordt om een (kleine) betaling, je pincode of een sms-code gevraagd. Je bank vraagt dat NOOIT via sms of mail.",
-              "Alarmsignaal 3 — Vreemde afzender: tik op de naam van de afzender en bekijk het echte e-mailadres of nummer. 'bpost' vanaf een gsm-nummer? Fout.",
-              "Alarmsignaal 4 — Vreemde link: hou je vinger lang op een link (niet tikken!) om te zien waar hij écht naartoe leidt."
-            ] },
-            { "type": "tip", "text": "Twijfel je? Klik nergens op en kom langs of bel ons. We kijken gratis even mee — liever tien keer voor niets dan één keer te laat." },
-            { "type": "text", "text": "Toch geklikt of betaald? Geen paniek en geen schaamte, het overkomt ook jonge en 'slimme' mensen. Bel meteen Card Stop op 078 170 170 als je bankgegevens gaf, en verander je wachtwoorden." }
+            {
+              "type": "text",
+              "text": "'Uw pakje kon niet geleverd worden, betaal €1 verzendkosten.' 'Uw bankkaart vervalt vandaag.' Klinkt bekend? Oplichters sturen miljoenen van zulke berichten. Wie de trucs kent, trapt er niet in."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Alarmsignaal 1 — Haast: 'binnen 24 uur', 'onmiddellijk', 'laatste kans'. Echte bedrijven jagen je nooit op.",
+                "Alarmsignaal 2 — Geld of codes: er wordt om een (kleine) betaling, je pincode of een sms-code gevraagd. Je bank vraagt dat NOOIT via sms of mail.",
+                "Alarmsignaal 3 — Vreemde afzender: tik op de naam van de afzender en bekijk het echte e-mailadres of nummer. 'bpost' vanaf een gsm-nummer? Fout.",
+                "Alarmsignaal 4 — Vreemde link: hou je vinger lang op een link (niet tikken!) om te zien waar hij écht naartoe leidt."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Twijfel je? Klik nergens op en kom langs of bel ons. We kijken gratis even mee — liever tien keer voor niets dan één keer te laat."
+            },
+            {
+              "type": "text",
+              "text": "Toch geklikt of betaald? Geen paniek en geen schaamte, het overkomt ook jonge en 'slimme' mensen. Bel meteen Card Stop op 078 170 170 als je bankgegevens gaf, en verander je wachtwoorden."
+            }
           ]
         },
         {
@@ -246,14 +393,23 @@
           "title": "Je Apple Account extra beveiligen",
           "durationMin": 5,
           "blocks": [
-            { "type": "text", "text": "Je Apple Account (vroeger Apple ID) is de sleutel tot ál je Apple-spullen: je foto's in iCloud, je back-ups, je aankopen. Met tweefactorauthenticatie kan zelfs iemand mét je wachtwoord er niet in." },
-            { "type": "steps", "items": [
-              "Ga naar Instellingen en tik bovenaan op je naam.",
-              "Tik op 'Inloggen en beveiliging'.",
-              "Controleer of 'Tweefactorauthenticatie' aan staat. Bij de meeste mensen staat dit al aan — mooi zo!",
-              "Controleer ook je vertrouwde telefoonnummer: klopt dat nog?"
-            ] },
-            { "type": "tip", "text": "Krijg je een code van Apple terwijl je zelf nérgens probeert in te loggen? Deel die code met niemand — iemand anders probeert binnen te raken. Wijzig dan je wachtwoord." }
+            {
+              "type": "text",
+              "text": "Je Apple Account (vroeger Apple ID) is de sleutel tot ál je Apple-spullen: je foto's in iCloud, je back-ups, je aankopen. Met tweefactorauthenticatie kan zelfs iemand mét je wachtwoord er niet in."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Ga naar Instellingen en tik bovenaan op je naam.",
+                "Tik op 'Inloggen en beveiliging'.",
+                "Controleer of 'Tweefactorauthenticatie' aan staat. Bij de meeste mensen staat dit al aan — mooi zo!",
+                "Controleer ook je vertrouwde telefoonnummer: klopt dat nog?"
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Krijg je een code van Apple terwijl je zelf nérgens probeert in te loggen? Deel die code met niemand — iemand anders probeert binnen te raken. Wijzig dan je wachtwoord."
+            }
           ]
         },
         {
@@ -261,13 +417,22 @@
           "title": "Veilig op openbare wifi",
           "durationMin": 4,
           "blocks": [
-            { "type": "text", "text": "Gratis wifi op café, in de trein of op hotel: handig, maar je weet nooit wie meekijkt op zo'n netwerk. Met een paar gewoontes surf je overal gerust." },
-            { "type": "steps", "items": [
-              "Bankieren of iets betalen? Doe dat liever even via je eigen mobiele data (zet wifi kort uit) dan op openbare wifi.",
-              "Vermijd wifi-netwerken zonder wachtwoord met vage namen als 'Free_WiFi_2'.",
-              "Klaar op het hotelnetwerk? Laat je iPhone het netwerk 'vergeten' via Instellingen > Wifi, tik op het ⓘ naast het netwerk."
-            ] },
-            { "type": "tip", "text": "Je iPhone kan zijn internet delen met je iPad of MacBook via 'Persoonlijke hotspot'. Vaak veiliger én sneller dan de openbare wifi." }
+            {
+              "type": "text",
+              "text": "Gratis wifi op café, in de trein of op hotel: handig, maar je weet nooit wie meekijkt op zo'n netwerk. Met een paar gewoontes surf je overal gerust."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Bankieren of iets betalen? Doe dat liever even via je eigen mobiele data (zet wifi kort uit) dan op openbare wifi.",
+                "Vermijd wifi-netwerken zonder wachtwoord met vage namen als 'Free_WiFi_2'.",
+                "Klaar op het hotelnetwerk? Laat je iPhone het netwerk 'vergeten' via Instellingen > Wifi, tik op het ⓘ naast het netwerk."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Je iPhone kan zijn internet delen met je iPad of MacBook via 'Persoonlijke hotspot'. Vaak veiliger én sneller dan de openbare wifi."
+            }
           ]
         },
         {
@@ -275,14 +440,23 @@
           "title": "Wie kijkt er mee? Je privacy-instellingen",
           "durationMin": 5,
           "blocks": [
-            { "type": "text", "text": "Apps vragen toegang tot je locatie, je foto's, je microfoon. Soms terecht (een kaartenapp heeft je locatie nodig), soms niet (waarom wil dat spelletje je contacten?). Jij beslist." },
-            { "type": "steps", "items": [
-              "Ga naar Instellingen > Privacy en beveiliging.",
-              "Tik op 'Locatievoorzieningen' en overloop de lijst: staat er een app op 'Altijd' die dat niet nodig heeft? Zet hem op 'Bij gebruik van app' of 'Nooit'.",
-              "Doe hetzelfde voor 'Foto's' en 'Microfoon'.",
-              "Nieuwsgierig wat apps uitspoken? Bekijk het 'App-privacyrapport' onderaan dezelfde pagina."
-            ] },
-            { "type": "tip", "text": "Een oranje of groen bolletje bovenaan je scherm betekent dat een app nú je microfoon (oranje) of camera (groen) gebruikt. Zo zie je het altijd meteen." }
+            {
+              "type": "text",
+              "text": "Apps vragen toegang tot je locatie, je foto's, je microfoon. Soms terecht (een kaartenapp heeft je locatie nodig), soms niet (waarom wil dat spelletje je contacten?). Jij beslist."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Ga naar Instellingen > Privacy en beveiliging.",
+                "Tik op 'Locatievoorzieningen' en overloop de lijst: staat er een app op 'Altijd' die dat niet nodig heeft? Zet hem op 'Bij gebruik van app' of 'Nooit'.",
+                "Doe hetzelfde voor 'Foto's' en 'Microfoon'.",
+                "Nieuwsgierig wat apps uitspoken? Bekijk het 'App-privacyrapport' onderaan dezelfde pagina."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Een oranje of groen bolletje bovenaan je scherm betekent dat een app nú je microfoon (oranje) of camera (groen) gebruikt. Zo zie je het altijd meteen."
+            }
           ]
         },
         {
@@ -290,14 +464,23 @@
           "title": "Wat als het toch misgaat?",
           "durationMin": 5,
           "blocks": [
-            { "type": "text", "text": "iPhone verloren, gestolen, of je vermoedt dat iemand in je account zit? Snel en juist reageren beperkt de schade enorm. Bewaar deze les als spiekbriefje." },
-            { "type": "steps", "items": [
-              "iPhone kwijt? Ga op een ander toestel naar icloud.com/find of gebruik de app Zoek mijn op de iPad of Mac van een familielid.",
-              "Markeer het toestel als 'Verloren': het wordt vergrendeld en toont een telefoonnummer waarop je bereikbaar bent.",
-              "Gestolen? Doe altijd aangifte bij de politie — dat proces-verbaal heb je ook nodig voor de verzekering.",
-              "Vreemde dingen in je account? Wijzig meteen je Apple Account-wachtwoord via Instellingen > je naam > Inloggen en beveiliging."
-            ] },
-            { "type": "tip", "text": "Dankzij je back-up (weet je nog, uit de cursus iPhone-basis?) staat bij een nieuw of vervangen toestel alles er zo weer op. Back-up is je beste verzekering — naast je échte verzekering dan." }
+            {
+              "type": "text",
+              "text": "iPhone verloren, gestolen, of je vermoedt dat iemand in je account zit? Snel en juist reageren beperkt de schade enorm. Bewaar deze les als spiekbriefje."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "iPhone kwijt? Ga op een ander toestel naar icloud.com/find of gebruik de app Zoek mijn op de iPad of Mac van een familielid.",
+                "Markeer het toestel als 'Verloren': het wordt vergrendeld en toont een telefoonnummer waarop je bereikbaar bent.",
+                "Gestolen? Doe altijd aangifte bij de politie — dat proces-verbaal heb je ook nodig voor de verzekering.",
+                "Vreemde dingen in je account? Wijzig meteen je Apple Account-wachtwoord via Instellingen > je naam > Inloggen en beveiliging."
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Dankzij je back-up (weet je nog, uit de cursus iPhone-basis?) staat bij een nieuw of vervangen toestel alles er zo weer op. Back-up is je beste verzekering — naast je échte verzekering dan."
+            }
           ]
         }
       ],
@@ -312,37 +495,67 @@
       "questions": [
         {
           "text": "Hoe maak je een schermafbeelding op een iPhone met Face ID?",
-          "answers": ["Zijknop en volume-omhoog samen indrukken", "Drie keer op het scherm tikken", "De zijknop lang ingedrukt houden", "Schudden met je iPhone"],
+          "answers": [
+            "Zijknop en volume-omhoog samen indrukken",
+            "Drie keer op het scherm tikken",
+            "De zijknop lang ingedrukt houden",
+            "Schudden met je iPhone"
+          ],
           "correctIndex": 0,
           "explanation": "Zijknop + volume-omhoog tegelijk, en klik! De schermafbeelding verschijnt linksonder — tik erop om ze meteen bij te werken of te delen. (Lang drukken op de zijknop start Siri, en schudden maakt typwerk ongedaan.)"
         },
         {
           "text": "Waar vind je iets terug in de app Instellingen als je niet weet waar het staat?",
-          "answers": ["Dat kan alleen via Siri", "Via de zoekbalk bovenaan in Instellingen", "Door elke rubriek open te klikken", "Via de App Store"],
+          "answers": [
+            "Dat kan alleen via Siri",
+            "Via de zoekbalk bovenaan in Instellingen",
+            "Door elke rubriek open te klikken",
+            "Via de App Store"
+          ],
           "correctIndex": 1,
           "explanation": "Trek de lijst in Instellingen even naar beneden en er verschijnt een zoekbalk. Typ gewone woorden zoals 'tekstgrootte' en je springt er direct naartoe. De snelste weg, altijd."
         },
         {
           "text": "Je hebt per ongeluk een foto gewist. Wat nu?",
-          "answers": ["Die is voorgoed verloren", "Alleen Kraks kan die terughalen", "Hij staat nog 30 dagen in het album 'Recent verwijderd'", "Je moet je back-up terugzetten"],
+          "answers": [
+            "Die is voorgoed verloren",
+            "Alleen Kraks kan die terughalen",
+            "Hij staat nog 30 dagen in het album 'Recent verwijderd'",
+            "Je moet je back-up terugzetten"
+          ],
           "correctIndex": 2,
           "explanation": "Gewiste foto's blijven 30 dagen in het album 'Recent verwijderd' staan. Openen, foto selecteren, 'Zet terug' — en hij staat weer tussen je andere foto's. Oef!"
         },
         {
           "text": "Wanneer maakt je iPhone automatisch een iCloud-back-up?",
-          "answers": ["Elk uur, altijd", "Alleen als je het zelf vraagt", "'s Nachts, aan de lader en met wifi", "Alleen in de Apple Store"],
+          "answers": [
+            "Elk uur, altijd",
+            "Alleen als je het zelf vraagt",
+            "'s Nachts, aan de lader en met wifi",
+            "Alleen in de Apple Store"
+          ],
           "correctIndex": 2,
           "explanation": "Ligt je iPhone 's nachts aan de lader met wifi in de buurt? Dan maakt hij vanzelf een reservekopie. Daarom is 's nachts opladen dubbel slim."
         },
         {
           "text": "Welke stelling over de batterij klopt?",
-          "answers": ["'s Nachts opladen is slecht voor de batterij", "Je moet de batterij helemaal leeg laten gaan voor je oplaadt", "Hitte is een van de grootste vijanden van je batterij", "Een batterij onder 80% conditie is kapot"],
+          "answers": [
+            "'s Nachts opladen is slecht voor de batterij",
+            "Je moet de batterij helemaal leeg laten gaan voor je oplaadt",
+            "Hitte is een van de grootste vijanden van je batterij",
+            "Een batterij onder 80% conditie is kapot"
+          ],
           "correctIndex": 2,
           "explanation": "Extreme hitte (zoals een autodashboard in de zomer) doet batterijen sneller verouderen. 's Nachts opladen mag gewoon en leeg laten gaan hoeft niet — dat zijn fabels van vroeger."
         },
         {
           "text": "Je handen zitten vol maar je wil een bericht sturen. Wat is de handigste manier?",
-          "answers": ["Wachten tot je thuis bent", "Het microfoontje in de typbalk: spreek je bericht in", "Heel snel typen met één vinger", "Dat kan niet op een iPhone"],
+          "answers": [
+            "Wachten tot je thuis bent",
+            "Het microfoontje in de typbalk: spreek je bericht in",
+            "Heel snel typen met één vinger",
+            "Dat kan niet op een iPhone"
+          ],
           "correctIndex": 1,
           "explanation": "Tik op het microfoontje in de typbalk van Berichten en spreek gewoon. Je iPhone typt het uit — lees nog even na en verstuur. Ook handig voor lange berichten!"
         }
@@ -355,37 +568,67 @@
       "questions": [
         {
           "text": "Wat is de snelste manier om de camera te openen als je iPhone vergrendeld is?",
-          "answers": ["Code intypen en de camera-app zoeken", "Naar links vegen op het vergrendelscherm", "Siri vragen om een foto te maken", "Drie keer op de zijknop drukken"],
+          "answers": [
+            "Code intypen en de camera-app zoeken",
+            "Naar links vegen op het vergrendelscherm",
+            "Siri vragen om een foto te maken",
+            "Drie keer op de zijknop drukken"
+          ],
           "correctIndex": 1,
           "explanation": "Veeg op het vergrendelscherm naar links en de camera staat meteen klaar — geen code nodig. Het perfecte moment wacht niet!"
         },
         {
           "text": "Je onderwerp staat voor een fel raam en wordt een donker silhouet. Wat doe je?",
-          "answers": ["De flits aanzetten", "Tikken op het gezicht en het zonnetje omhoog schuiven", "Verder weg gaan staan", "Daar is niets aan te doen"],
+          "answers": [
+            "De flits aanzetten",
+            "Tikken op het gezicht en het zonnetje omhoog schuiven",
+            "Verder weg gaan staan",
+            "Daar is niets aan te doen"
+          ],
           "correctIndex": 1,
           "explanation": "Tik op het gezicht om daar scherp te stellen, en schuif het zonnetje naast het kader omhoog om de belichting te verhogen. Eén beweging, groot verschil."
         },
         {
           "text": "Waarvoor dient Portretmodus?",
-          "answers": ["Alleen voor pasfoto's", "Om de achtergrond mooi wazig te maken", "Om in het donker te fotograferen", "Om video's te maken"],
+          "answers": [
+            "Alleen voor pasfoto's",
+            "Om de achtergrond mooi wazig te maken",
+            "Om in het donker te fotograferen",
+            "Om video's te maken"
+          ],
           "correctIndex": 1,
           "explanation": "Portretmodus houdt je onderwerp scherp en maakt de achtergrond dromerig wazig — dat professionele effect. En het werkt ook op huisdieren en bloemen, niet alleen op mensen."
         },
         {
           "text": "Wanneer verschijnt het gele maantje (nachtmodus) in de camera-app?",
-          "answers": ["Als je het aanzet in Instellingen", "Automatisch, als er weinig licht is", "Alleen na zonsondergang", "Als je batterij vol genoeg is"],
+          "answers": [
+            "Als je het aanzet in Instellingen",
+            "Automatisch, als er weinig licht is",
+            "Alleen na zonsondergang",
+            "Als je batterij vol genoeg is"
+          ],
           "correctIndex": 1,
           "explanation": "Nachtmodus verschijnt vanzelf zodra de camera weinig licht ziet. Jij hoeft alleen af te drukken en een paar tellen stil te houden. Tip: laat de flits uit, nachtmodus is bijna altijd mooier."
         },
         {
           "text": "Je hebt een foto bewerkt maar het resultaat bevalt je niet. Wat nu?",
-          "answers": ["De foto is definitief veranderd", "'Herstel origineel' zet alles terug", "Je moet de foto opnieuw nemen", "Alleen met een betaalde app op te lossen"],
+          "answers": [
+            "De foto is definitief veranderd",
+            "'Herstel origineel' zet alles terug",
+            "Je moet de foto opnieuw nemen",
+            "Alleen met een betaalde app op te lossen"
+          ],
           "correctIndex": 1,
           "explanation": "In de app Foto's kan je niets kapotmaken: 'Herstel origineel' brengt altijd de oorspronkelijke foto terug, hoeveel je ook geprobeerd hebt. Experimenteer dus gerust!"
         },
         {
           "text": "Wat is de beste manier om 40 vakantiefoto's in volle kwaliteit te delen?",
-          "answers": ["Eén voor één via WhatsApp", "Een iCloud-link of gedeeld album", "Afdrukken en opsturen", "Je iPhone uitlenen"],
+          "answers": [
+            "Eén voor één via WhatsApp",
+            "Een iCloud-link of gedeeld album",
+            "Afdrukken en opsturen",
+            "Je iPhone uitlenen"
+          ],
           "correctIndex": 1,
           "explanation": "Selecteer de foto's en kies 'iCloud-link kopieer', of maak een gedeeld album waar familie ook zelf foto's aan kan toevoegen. Volle kwaliteit, één linkje."
         }
@@ -398,37 +641,67 @@
       "questions": [
         {
           "text": "Je krijgt een sms: 'Uw pakje kon niet geleverd worden, betaal €1 via deze link.' Wat doe je?",
-          "answers": ["Snel betalen, het is maar €1", "Op de link klikken om te kijken", "Niet klikken — dit is bijna zeker phishing", "Je bank bellen en je kaart blokkeren"],
+          "answers": [
+            "Snel betalen, het is maar €1",
+            "Op de link klikken om te kijken",
+            "Niet klikken — dit is bijna zeker phishing",
+            "Je bank bellen en je kaart blokkeren"
+          ],
           "correctIndex": 2,
           "explanation": "Klassieke phishing: haast + een kleine betaling. Bezorgdiensten vragen nooit betalingen via sms. Niet klikken en verwijderen. (Je kaart blokkeren hoeft alleen als je al betaald hebt — dan bel je Card Stop: 078 170 170.)"
         },
         {
           "text": "Wie mag de sms-code kennen die je van je bank of van Apple krijgt?",
-          "answers": ["Alleen jij — nooit iemand anders", "Bankmedewerkers aan de telefoon", "De politie", "Familieleden"],
+          "answers": [
+            "Alleen jij — nooit iemand anders",
+            "Bankmedewerkers aan de telefoon",
+            "De politie",
+            "Familieleden"
+          ],
           "correctIndex": 0,
           "explanation": "Zo'n code is alleen voor jou. Zelfs een échte bankmedewerker vraagt er nooit naar. Vraagt iemand aan de telefoon om een code? Ophangen — het is een oplichter."
         },
         {
           "text": "Hoe zie je waar een link in een verdacht bericht écht naartoe leidt?",
-          "answers": ["Door erop te klikken", "Door je vinger lang op de link te houden", "Dat kan je niet zien", "Door het bericht door te sturen naar jezelf"],
+          "answers": [
+            "Door erop te klikken",
+            "Door je vinger lang op de link te houden",
+            "Dat kan je niet zien",
+            "Door het bericht door te sturen naar jezelf"
+          ],
           "correctIndex": 1,
           "explanation": "Houd je vinger láng op de link (niet kort tikken!) en je iPhone toont een voorbeeld van het echte adres. Staat daar iets vreemds? Verwijderen dat bericht."
         },
         {
           "text": "Wat is tweefactorauthenticatie bij je Apple Account?",
-          "answers": ["Twee wachtwoorden onthouden", "Een extra controle via een code op je vertrouwde toestel", "Twee keer inloggen", "Een betaalde beveiligingsdienst"],
+          "answers": [
+            "Twee wachtwoorden onthouden",
+            "Een extra controle via een code op je vertrouwde toestel",
+            "Twee keer inloggen",
+            "Een betaalde beveiligingsdienst"
+          ],
           "correctIndex": 1,
           "explanation": "Naast je wachtwoord is er een tweede slot: een code die op jouw eigen toestel verschijnt. Zelfs wie je wachtwoord steelt, raakt zo je account niet binnen."
         },
         {
           "text": "Wat betekent het oranje bolletje bovenaan je scherm?",
-          "answers": ["Je batterij is bijna leeg", "Een app gebruikt op dit moment je microfoon", "Je hebt een nieuw bericht", "Je wifi valt weg"],
+          "answers": [
+            "Je batterij is bijna leeg",
+            "Een app gebruikt op dit moment je microfoon",
+            "Je hebt een nieuw bericht",
+            "Je wifi valt weg"
+          ],
           "correctIndex": 1,
           "explanation": "Oranje = microfoon in gebruik, groen = camera in gebruik. Zo weet je altijd of een app meeluistert of meekijkt. Handig controlemiddel!"
         },
         {
           "text": "Je iPhone is gestolen. Wat is de juiste volgorde?",
-          "answers": ["Nieuwe iPhone kopen en klaar", "Wachten of hij terugkomt", "Via 'Zoek mijn' als verloren markeren én aangifte doen bij de politie", "Je simkaart opzeggen, meer niet"],
+          "answers": [
+            "Nieuwe iPhone kopen en klaar",
+            "Wachten of hij terugkomt",
+            "Via 'Zoek mijn' als verloren markeren én aangifte doen bij de politie",
+            "Je simkaart opzeggen, meer niet"
+          ],
           "correctIndex": 2,
           "explanation": "Markeer hem meteen als 'Verloren' via icloud.com/find (hij wordt vergrendeld) en doe aangifte — dat proces-verbaal heb je nodig voor de verzekering. Met een back-up staat alles daarna zo op een vervangtoestel."
         }
@@ -437,22 +710,33 @@
   ],
   "articles": [
     {
-      "id": "artikel-5-dingen",
+      "id": "artikel-5-dingen-die-je-iphone-kan-waarvan-je-mi",
       "date": "2026-07-06",
-      "title": "5 dingen die je iPhone kan waarvan je (misschien) geen idee had",
+      "title": "5 dingen die je iPhone kan waarvan je (misschien) geen idee had!",
       "summary": "Kleine trucjes, groot plezier. Onze kraks verklappen hun favorieten.",
-      "deviceTypes": ["iphone"],
+      "deviceTypes": [
+        "iphone"
+      ],
       "isKeynote": false,
       "blocks": [
-        { "type": "text", "text": "Elke dag helpen we in de winkel mensen die al járen een iPhone hebben — en toch vallen er elke dag monden open. Dit zijn de vijf trucjes waarbij dat het vaakst gebeurt." },
-        { "type": "steps", "items": [
-          "Tik twee keer op de rugzijde van je iPhone om bv. de zaklamp aan te zetten. Instellen via Instellingen > Toegankelijkheid > Aanraken > Tik op achterkant.",
-          "Leg je vinger op de spatiebalk en houd vast: je toetsenbord wordt een muispad om de cursor precies te zetten.",
-          "Typ '17 euro in dollar' of '13 keer 24' in de zoekfunctie (veeg omlaag op het beginscherm) — rekenmachine en omrekenen ineen.",
-          "Schud je iPhone om je laatste typwerk ongedaan te maken. Echt waar.",
-          "Zeg 'Hé Siri, wat speelt hier?' als je ergens een liedje hoort dat je wil kennen."
-        ] },
-        { "type": "tip", "text": "Nog meer van dit? In de cursus iPhone-basis in de Academy zitten er nog veel meer verstopt." }
+        {
+          "type": "text",
+          "text": "Elke dag helpen we in de winkel mensen die al járen een iPhone hebben — en toch vallen er elke dag monden open. Dit zijn de vijf trucjes waarbij dat het vaakst gebeurt."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Tik twee keer op de rugzijde van je iPhone om bv. de zaklamp aan te zetten. Instellen via Instellingen > Toegankelijkheid > Aanraken > Tik op achterkant.",
+            "Leg je vinger op de spatiebalk en houd vast: je toetsenbord wordt een muispad om de cursor precies te zetten.",
+            "Typ '17 euro in dollar' of '13 keer 24' in de zoekfunctie (veeg omlaag op het beginscherm) — rekenmachine en omrekenen ineen.",
+            "Schud je iPhone om je laatste typwerk ongedaan te maken. Echt waar.",
+            "Zeg 'Hé Siri, wat speelt hier?' als je ergens een liedje hoort dat je wil kennen."
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Nog meer van dit? In de cursus iPhone-basis in de Academy zitten er nog veel meer verstopt."
+        }
       ]
     },
     {
@@ -460,17 +744,32 @@
       "date": "2026-07-06",
       "title": "Je batterij langer laten meegaan: wat werkt écht (en wat is onzin)",
       "summary": "Wij vervangen elke week batterijen. Dit is wat we iedereen vertellen.",
-      "deviceTypes": ["iphone", "ipad"],
+      "deviceTypes": [
+        "iphone",
+        "ipad"
+      ],
       "isKeynote": false,
       "blocks": [
-        { "type": "text", "text": "Over batterijen doen meer fabels de ronde dan over de Brugse vesten. De grootste: ''s nachts opladen is slecht'. Onzin — je iPhone stopt zelf met laden en wacht slim tot vlak voor je opstaat om de laatste procenten te vullen." },
-        { "type": "text", "text": "Wat wél helpt: vermijd extreme hitte (laat je toestel nooit in de zon op het dashboard liggen), en je hoeft niet te panikeren bij elke procent batterijconditie die verdwijnt — dat is normale slijtage." },
-        { "type": "steps", "items": [
-          "Check je batterijconditie: Instellingen > Batterij > Batterijconditie.",
-          "Boven 80%? Niets aan de hand.",
-          "Eronder, of valt je toestel soms zomaar uit? Spring binnen — een batterijvervanging is vaak klaar terwijl je een koffie drinkt in 't Zand."
-        ] },
-        { "type": "tip", "text": "De Energiebesparingsmodus (via het Bedieningspaneel) is je vriend op lange dagen. Hij zet niets belangrijks uit — je merkt er amper iets van." }
+        {
+          "type": "text",
+          "text": "Over batterijen doen meer fabels de ronde dan over de Brugse vesten. De grootste: ''s nachts opladen is slecht'. Onzin — je iPhone stopt zelf met laden en wacht slim tot vlak voor je opstaat om de laatste procenten te vullen."
+        },
+        {
+          "type": "text",
+          "text": "Wat wél helpt: vermijd extreme hitte (laat je toestel nooit in de zon op het dashboard liggen), en je hoeft niet te panikeren bij elke procent batterijconditie die verdwijnt — dat is normale slijtage."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Check je batterijconditie: Instellingen > Batterij > Batterijconditie.",
+            "Boven 80%? Niets aan de hand.",
+            "Eronder, of valt je toestel soms zomaar uit? Spring binnen — een batterijvervanging is vaak klaar terwijl je een koffie drinkt in 't Zand."
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "De Energiebesparingsmodus (via het Bedieningspaneel) is je vriend op lange dagen. Hij zet niets belangrijks uit — je merkt er amper iets van."
+        }
       ]
     },
     {
@@ -478,17 +777,29 @@
       "date": "2026-07-06",
       "title": "Opslag vol? Zo maak je ruimte zonder één foto te verliezen",
       "summary": "Die melding 'Opslag bijna vol' hoeft geen paniek te betekenen.",
-      "deviceTypes": ["iphone", "ipad"],
+      "deviceTypes": [
+        "iphone",
+        "ipad"
+      ],
       "isKeynote": false,
       "blocks": [
-        { "type": "text", "text": "De melding 'iPhone-opslag bijna vol' is een van de vaakst gehoorde klachten in onze winkel. Goed nieuws: meestal is het opgelost zonder ook maar één foto weg te doen." },
-        { "type": "steps", "items": [
-          "Kijk eerst wat de ruimte inneemt: Instellingen > Algemeen > iPhone-opslag. Bovenaan zie je een gekleurde balk.",
-          "Volg de suggesties die je iPhone daar zelf geeft — 'Optimaliseer foto's' is vaak de grote winst: volle kwaliteit in iCloud, lichte versie op je toestel.",
-          "Scroll door de app-lijst: apps die je nooit gebruikt kan je 'ontlasten' (de app gaat weg, je gegevens blijven).",
-          "Berichten-app groot? Oude video's in gesprekken zijn vaak de boosdoener."
-        ] },
-        { "type": "tip", "text": "Kom je er niet uit, of twijfel je tussen iCloud-opslag en een ander plan? Kom langs — we bekijken het gratis en eerlijk, en verkopen je niets wat je niet nodig hebt." }
+        {
+          "type": "text",
+          "text": "De melding 'iPhone-opslag bijna vol' is een van de vaakst gehoorde klachten in onze winkel. Goed nieuws: meestal is het opgelost zonder ook maar één foto weg te doen."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Kijk eerst wat de ruimte inneemt: Instellingen > Algemeen > iPhone-opslag. Bovenaan zie je een gekleurde balk.",
+            "Volg de suggesties die je iPhone daar zelf geeft — 'Optimaliseer foto's' is vaak de grote winst: volle kwaliteit in iCloud, lichte versie op je toestel.",
+            "Scroll door de app-lijst: apps die je nooit gebruikt kan je 'ontlasten' (de app gaat weg, je gegevens blijven).",
+            "Berichten-app groot? Oude video's in gesprekken zijn vaak de boosdoener."
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Kom je er niet uit, of twijfel je tussen iCloud-opslag en een ander plan? Kom langs — we bekijken het gratis en eerlijk, en verkopen je niets wat je niet nodig hebt."
+        }
       ]
     },
     {
@@ -496,17 +807,33 @@
       "date": "2026-07-06",
       "title": "Oplichters via sms: dit circuleert nu in Vlaanderen",
       "summary": "Valse pakjesberichten en 'je zoon of dochter' met een nieuw nummer. Trap er niet in.",
-      "deviceTypes": ["iphone", "ipad", "mac"],
+      "deviceTypes": [
+        "iphone",
+        "ipad",
+        "mac"
+      ],
       "isKeynote": false,
       "blocks": [
-        { "type": "text", "text": "Twee soorten berichten duiken de laatste tijd overal op. Eén: 'Uw pakje kon niet geleverd worden' met een betaallinkje. Twee: 'Hoi mama/papa, mijn gsm is kapot, dit is mijn nieuw nummer' — gevolgd door een vraag om geld over te schrijven." },
-        { "type": "text", "text": "Allebei oplichting. Bezorgdiensten vragen nooit geld via sms. En dat 'kind met het nieuwe nummer'? Bel gewoon even naar het échte nummer van je zoon of dochter. Negen op de tien keer neemt die gewoon op, met een werkende gsm." },
-        { "type": "steps", "items": [
-          "Niet klikken, niet antwoorden, bericht verwijderen.",
-          "Twijfel je? Foto van het bericht en kom langs — we kijken gratis mee.",
-          "Toch betaald? Bel meteen Card Stop: 078 170 170, en doe aangifte bij de politie."
-        ] },
-        { "type": "tip", "text": "Volg de cursus 'Veilig online' in de Academy — na les 2 herken je élke phishing-poging aan de vier alarmsignalen." }
+        {
+          "type": "text",
+          "text": "Twee soorten berichten duiken de laatste tijd overal op. Eén: 'Uw pakje kon niet geleverd worden' met een betaallinkje. Twee: 'Hoi mama/papa, mijn gsm is kapot, dit is mijn nieuw nummer' — gevolgd door een vraag om geld over te schrijven."
+        },
+        {
+          "type": "text",
+          "text": "Allebei oplichting. Bezorgdiensten vragen nooit geld via sms. En dat 'kind met het nieuwe nummer'? Bel gewoon even naar het échte nummer van je zoon of dochter. Negen op de tien keer neemt die gewoon op, met een werkende gsm."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Niet klikken, niet antwoorden, bericht verwijderen.",
+            "Twijfel je? Foto van het bericht en kom langs — we kijken gratis mee.",
+            "Toch betaald? Bel meteen Card Stop: 078 170 170, en doe aangifte bij de politie."
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Volg de cursus 'Veilig online' in de Academy — na les 2 herken je élke phishing-poging aan de vier alarmsignalen."
+        }
       ]
     },
     {
@@ -514,17 +841,33 @@
       "date": "2026-07-06",
       "title": "Wat is 'Kraks refurbished' eigenlijk? (En waarom wij er zo in geloven)",
       "summary": "100% origineel, 2 jaar garantie, beter voor de planeet, maar wat betekent het écht?",
-      "deviceTypes": ["iphone", "ipad", "mac"],
+      "deviceTypes": [
+        "iphone",
+        "ipad",
+        "mac"
+      ],
       "isKeynote": false,
       "blocks": [
-        { "type": "text", "text": "Een Kraks refurbished toestel is een gebruikt toestel dat volledig is nagekeken, hersteld waar nodig, en gepoetst tot het er weer piekfijn bijstaat. Bij Kraks doen we dat zelf, in ons eigen atelier, met originele onderdelen — vandaar die ⓚ." },
-        { "type": "text", "text": "Waarom we erin geloven? Omdat je niet altijd het laatste model nodig hebt om een betrouwbare iPhone te hebben nog jaren perfect meegaat. Dat scheelt je een stuk in prijs én het is de meest duurzame keuze die je kan maken: de groenste iPhone is er een die al bestaat." },
-        { "type": "steps", "items": [
-          "Elk Kraks Refurbished-toestel krijgt 2 jaar garantie, dus evenveel als nieuw.",
-          "De batterij wordt gecontroleerd en vervangen als de conditie te laag is.",
-          "Twijfel je tussen nieuw en refurbished? Kom zeker eens langs voor eerlijk advies."
-        ] },
-        { "type": "tip", "text": "Ook je eigen oude toestel kan een tweede leven krijgen. Vraag in de winkel naar onze inruilservice, dan kunnen we zo de waarde van je toestel berekenen en kun je er nog wat voor krijgen" }
+        {
+          "type": "text",
+          "text": "Een Kraks refurbished toestel is een gebruikt toestel dat volledig is nagekeken, hersteld waar nodig, en gepoetst tot het er weer piekfijn bijstaat. Bij Kraks doen we dat zelf, in ons eigen atelier, met originele onderdelen — vandaar die ⓚ."
+        },
+        {
+          "type": "text",
+          "text": "Waarom we erin geloven? Omdat je niet altijd het laatste model nodig hebt om een betrouwbare iPhone te hebben nog jaren perfect meegaat. Dat scheelt je een stuk in prijs én het is de meest duurzame keuze die je kan maken: de groenste iPhone is er een die al bestaat."
+        },
+        {
+          "type": "steps",
+          "items": [
+            "Elk Kraks Refurbished-toestel krijgt 2 jaar garantie, dus evenveel als nieuw.",
+            "De batterij wordt gecontroleerd en vervangen als de conditie te laag is.",
+            "Twijfel je tussen nieuw en refurbished? Kom zeker eens langs voor eerlijk advies."
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Ook je eigen oude toestel kan een tweede leven krijgen. Vraag in de winkel naar onze inruilservice, dan kunnen we zo de waarde van je toestel berekenen en kun je er nog wat voor krijgen"
+        }
       ]
     },
     {
@@ -532,34 +875,178 @@
       "date": "2026-07-06",
       "title": "SJABLOON — Apple's keynote in mensentaal: wat betekent [event] voor jou?",
       "summary": "Sjabloon voor het keynote-artikel. Kopieer, vul in en publiceer binnen 24 uur na elk Apple-event.",
-      "deviceTypes": ["iphone", "ipad", "mac"],
+      "deviceTypes": [
+        "iphone",
+        "ipad",
+        "mac"
+      ],
       "isKeynote": true,
       "placeholder": true,
       "blocks": [
-        { "type": "text", "text": "[Intro in 2 zinnen: wat kondigde Apple gisteren aan, zonder jargon. Voorbeeld: 'Apple stelde gisteravond de nieuwe iPhone voor. Wij keken (met een zak friet erbij) en vertellen je wat het betekent voor jóuw toestel.']" },
-        { "type": "text", "text": "[Per aankondiging 1 korte alinea: wat is het, en de eerlijke vraag: heb je dit nodig? Durf te schrijven 'mooi, maar geen reden om te upgraden'.]" },
-        { "type": "deviceMatrix", "title": "Wat krijgt jouw toestel?", "features": [
-          { "name": "[Nieuwe functie 1]", "supportedDevices": ["iPhone 15", "iPhone 16", "iPhone 17"] },
-          { "name": "[Nieuwe functie 2]", "supportedDevices": ["iPhone 13", "iPhone 14", "iPhone 15", "iPhone 16", "iPhone 17"] }
-        ] },
-        { "type": "text", "text": "[Afsluiter: wanneer beschikbaar, en de Kraks-conclusie in één zin. Vragen? Kom langs.]" },
-        { "type": "tip", "text": "Benieuwd of een nieuw model iets voor jou is? Open 'Vergelijk met nieuw' bij Mijn toestel — eerlijk antwoord, beloofd." }
+        {
+          "type": "text",
+          "text": "[Intro in 2 zinnen: wat kondigde Apple gisteren aan, zonder jargon. Voorbeeld: 'Apple stelde gisteravond de nieuwe iPhone voor. Wij keken (met een zak friet erbij) en vertellen je wat het betekent voor jóuw toestel.']"
+        },
+        {
+          "type": "text",
+          "text": "[Per aankondiging 1 korte alinea: wat is het, en de eerlijke vraag: heb je dit nodig? Durf te schrijven 'mooi, maar geen reden om te upgraden'.]"
+        },
+        {
+          "type": "deviceMatrix",
+          "title": "Wat krijgt jouw toestel?",
+          "features": [
+            {
+              "name": "[Nieuwe functie 1]",
+              "supportedDevices": [
+                "iPhone 15",
+                "iPhone 16",
+                "iPhone 17"
+              ]
+            },
+            {
+              "name": "[Nieuwe functie 2]",
+              "supportedDevices": [
+                "iPhone 13",
+                "iPhone 14",
+                "iPhone 15",
+                "iPhone 16",
+                "iPhone 17"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "[Afsluiter: wanneer beschikbaar, en de Kraks-conclusie in één zin. Vragen? Kom langs.]"
+        },
+        {
+          "type": "tip",
+          "text": "Benieuwd of een nieuw model iets voor jou is? Open 'Vergelijk met nieuw' bij Mijn toestel — eerlijk antwoord, beloofd."
+        }
       ]
     }
   ],
   "badges": [
-    { "id": "eerste-les", "title": "Eerste stapjes", "description": "Je eerste les voltooid", "icon": "figure.walk", "criteria": { "type": "lessonsCompleted", "value": 1 } },
-    { "id": "leergierig", "title": "Leergierig", "description": "Tien lessen voltooid", "icon": "book.fill", "criteria": { "type": "lessonsCompleted", "value": 10 } },
-    { "id": "cursus-voltooid", "title": "Afgestudeerd", "description": "Een volledige cursus voltooid", "icon": "graduationcap.fill", "criteria": { "type": "coursesCompleted", "value": 1 } },
-    { "id": "drie-cursussen", "title": "Echte krak", "description": "Drie cursussen voltooid", "icon": "star.fill", "criteria": { "type": "coursesCompleted", "value": 3 } },
-    { "id": "eerste-quiz", "title": "Quizzer", "description": "Je eerste quiz gespeeld", "icon": "questionmark.circle.fill", "criteria": { "type": "quizzesCompleted", "value": 1 } },
-    { "id": "perfecte-quiz", "title": "Foutloos!", "description": "Een quiz zonder één fout", "icon": "checkmark.seal.fill", "criteria": { "type": "perfectQuizzes", "value": 1 } },
-    { "id": "streak-3", "title": "Op dreef", "description": "Drie dagen op rij actief", "icon": "flame", "criteria": { "type": "streakDays", "value": 3 } },
-    { "id": "streak-7", "title": "Weekkrak", "description": "Zeven dagen op rij actief", "icon": "flame.fill", "criteria": { "type": "streakDays", "value": 7 } },
-    { "id": "streak-30", "title": "Niet te stoppen", "description": "Dertig dagen op rij actief", "icon": "trophy.fill", "criteria": { "type": "streakDays", "value": 30 } },
-    { "id": "toestel-dokter", "title": "Toestel-dokter", "description": "Je eerste gezondheidscheck uitgevoerd", "icon": "stethoscope", "criteria": { "type": "healthChecks", "value": 1 } },
-    { "id": "preventie-kampioen", "title": "Preventiekampioen", "description": "Drie maanden na elkaar een gezondheidscheck", "icon": "heart.text.square.fill", "criteria": { "type": "healthChecks", "value": 3 } },
-    { "id": "keynote-kenner", "title": "Keynote-kenner", "description": "Vijf artikels gelezen", "icon": "newspaper.fill", "criteria": { "type": "articlesRead", "value": 5 } }
+    {
+      "id": "eerste-les",
+      "title": "Eerste stapjes",
+      "description": "Je eerste les voltooid",
+      "icon": "figure.walk",
+      "criteria": {
+        "type": "lessonsCompleted",
+        "value": 1
+      }
+    },
+    {
+      "id": "leergierig",
+      "title": "Leergierig",
+      "description": "Tien lessen voltooid",
+      "icon": "book.fill",
+      "criteria": {
+        "type": "lessonsCompleted",
+        "value": 10
+      }
+    },
+    {
+      "id": "cursus-voltooid",
+      "title": "Afgestudeerd",
+      "description": "Een volledige cursus voltooid",
+      "icon": "graduationcap.fill",
+      "criteria": {
+        "type": "coursesCompleted",
+        "value": 1
+      }
+    },
+    {
+      "id": "drie-cursussen",
+      "title": "Echte krak",
+      "description": "Drie cursussen voltooid",
+      "icon": "star.fill",
+      "criteria": {
+        "type": "coursesCompleted",
+        "value": 3
+      }
+    },
+    {
+      "id": "eerste-quiz",
+      "title": "Quizzer",
+      "description": "Je eerste quiz gespeeld",
+      "icon": "questionmark.circle.fill",
+      "criteria": {
+        "type": "quizzesCompleted",
+        "value": 1
+      }
+    },
+    {
+      "id": "perfecte-quiz",
+      "title": "Foutloos!",
+      "description": "Een quiz zonder één fout",
+      "icon": "checkmark.seal.fill",
+      "criteria": {
+        "type": "perfectQuizzes",
+        "value": 1
+      }
+    },
+    {
+      "id": "streak-3",
+      "title": "Op dreef",
+      "description": "Drie dagen op rij actief",
+      "icon": "flame",
+      "criteria": {
+        "type": "streakDays",
+        "value": 3
+      }
+    },
+    {
+      "id": "streak-7",
+      "title": "Weekkrak",
+      "description": "Zeven dagen op rij actief",
+      "icon": "flame.fill",
+      "criteria": {
+        "type": "streakDays",
+        "value": 7
+      }
+    },
+    {
+      "id": "streak-30",
+      "title": "Niet te stoppen",
+      "description": "Dertig dagen op rij actief",
+      "icon": "trophy.fill",
+      "criteria": {
+        "type": "streakDays",
+        "value": 30
+      }
+    },
+    {
+      "id": "toestel-dokter",
+      "title": "Toestel-dokter",
+      "description": "Je eerste gezondheidscheck uitgevoerd",
+      "icon": "stethoscope",
+      "criteria": {
+        "type": "healthChecks",
+        "value": 1
+      }
+    },
+    {
+      "id": "preventie-kampioen",
+      "title": "Preventiekampioen",
+      "description": "Drie maanden na elkaar een gezondheidscheck",
+      "icon": "heart.text.square.fill",
+      "criteria": {
+        "type": "healthChecks",
+        "value": 3
+      }
+    },
+    {
+      "id": "keynote-kenner",
+      "title": "Keynote-kenner",
+      "description": "Vijf artikels gelezen",
+      "icon": "newspaper.fill",
+      "criteria": {
+        "type": "articlesRead",
+        "value": 5
+      }
+    }
   ],
   "storeMessages": [
     {
