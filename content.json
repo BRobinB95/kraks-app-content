@@ -1,5 +1,5 @@
 {
-  "contentVersion": 3,
+  "contentVersion": 4,
   "minimumAppVersion": "1.0",
   "latestOS": {
     "iOS": "26.5",
@@ -709,6 +709,23 @@
     }
   ],
   "articles": [
+    {
+      "id": "artikel-test",
+      "date": "2026-07-11",
+      "title": "test",
+      "summary": "zerfzfdgdfg",
+      "deviceTypes": [
+        "iphone"
+      ],
+      "isKeynote": false,
+      "blocks": [
+        {
+          "type": "text",
+          "text": ""
+        }
+      ],
+      "placeholder": true
+    },
     {
       "id": "artikel-5-dingen-die-je-iphone-kan-waarvan-je-mi",
       "date": "2026-07-06",
