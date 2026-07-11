@@ -1,7 +1,7 @@
 {
   "contentVersion": 1,
   "minimumAppVersion": "1.0",
-  "latestOS": { "iOS": "26.5", "iPadOS": "26.5", "macOS": "16.5" },
+  "latestOS": { "iOS": "26.5", "iPadOS": "26.5", "macOS": "26.5" },
   "courses": [
     {
       "id": "iphone-basis",
@@ -512,19 +512,19 @@
     {
       "id": "artikel-refurbished",
       "date": "2026-07-06",
-      "title": "Wat is 'refurbished' eigenlijk? (En waarom wij er zo in geloven)",
-      "summary": "100% origineel, 2 jaar garantie, beter voor de planeet — maar wat betekent het écht?",
+      "title": "Wat is 'Kraks refurbished' eigenlijk? (En waarom wij er zo in geloven)",
+      "summary": "100% origineel, 2 jaar garantie, beter voor de planeet, maar wat betekent het écht?",
       "deviceTypes": ["iphone", "ipad", "mac"],
       "isKeynote": false,
       "blocks": [
-        { "type": "text", "text": "Een refurbished toestel is een gebruikt toestel dat volledig is nagekeken, hersteld waar nodig, en gepoetst tot het er weer piekfijn bijstaat. Bij Kraks doen we dat zelf, in ons eigen atelier, met originele onderdelen — vandaar die ⓚ." },
-        { "type": "text", "text": "Waarom we erin geloven? Omdat een iPhone die twee jaar oud is, voor de meeste mensen nog jaren perfect meegaat. Dat scheelt je honderden euro's én het is de meest duurzame keuze die je kan maken: de groenste iPhone is er een die al bestaat." },
+        { "type": "text", "text": "Een Kraks refurbished toestel is een gebruikt toestel dat volledig is nagekeken, hersteld waar nodig, en gepoetst tot het er weer piekfijn bijstaat. Bij Kraks doen we dat zelf, in ons eigen atelier, met originele onderdelen — vandaar die ⓚ." },
+        { "type": "text", "text": "Waarom we erin geloven? Omdat je niet altijd het laatste model nodig hebt om een betrouwbare iPhone te hebben nog jaren perfect meegaat. Dat scheelt je een stuk in prijs én het is de meest duurzame keuze die je kan maken: de groenste iPhone is er een die al bestaat." },
         { "type": "steps", "items": [
-          "Elk Kraks Refurbished-toestel krijgt 2 jaar garantie — evenveel als nieuw.",
+          "Elk Kraks Refurbished-toestel krijgt 2 jaar garantie, dus evenveel als nieuw.",
           "De batterij wordt gecontroleerd en vervangen als de conditie te laag is.",
-          "Twijfel je tussen nieuw en refurbished? Gebruik 'Vergelijk met nieuw' in deze app, of kom langs voor eerlijk advies."
+          "Twijfel je tussen nieuw en refurbished? Kom zeker eens langs voor eerlijk advies."
         ] },
-        { "type": "tip", "text": "Ook je eigen oude toestel kan een tweede leven krijgen. Vraag in de winkel naar onze inruilservice." }
+        { "type": "tip", "text": "Ook je eigen oude toestel kan een tweede leven krijgen. Vraag in de winkel naar onze inruilservice, dan kunnen we zo de waarde van je toestel berekenen en kun je er nog wat voor krijgen" }
       ]
     },
     {
