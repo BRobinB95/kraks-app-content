@@ -1,5 +1,5 @@
 {
-  "contentVersion": 6,
+  "contentVersion": 7,
   "minimumAppVersion": "1.0",
   "latestOS": {
     "iOS": "26.5",
@@ -738,7 +738,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Elke dag helpen we in de winkel mensen die al járen een iPhone hebben — en toch vallen er elke dag monden open. Dit zijn de vijf trucjes waarbij dat het vaakst gebeurt."
+          "text": "Elke dag helpen we in de winkel mensen die al járen een iPhone hebben en toch vallen er elke dag monden open. Dit zijn de vijf trucjes waarbij dat het vaakst gebeurt."
         },
         {
           "type": "steps",
