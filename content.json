@@ -1,5 +1,5 @@
 {
-  "contentVersion": 4,
+  "contentVersion": 5,
   "minimumAppVersion": "1.0",
   "latestOS": {
     "iOS": "26.5",
@@ -745,7 +745,7 @@
           "items": [
             "Tik twee keer op de rugzijde van je iPhone om bv. de zaklamp aan te zetten. Instellen via Instellingen > Toegankelijkheid > Aanraken > Tik op achterkant.",
             "Leg je vinger op de spatiebalk en houd vast: je toetsenbord wordt een muispad om de cursor precies te zetten.",
-            "Typ '17 euro in dollar' of '13 keer 24' in de zoekfunctie (veeg omlaag op het beginscherm) — rekenmachine en omrekenen ineen.",
+            "Typ '17 euro in dollar' of '13 keer 24' in de zoekfunctie (veeg omlaag op het beginscherm), die kan rechtstreeks worden gebruikt als rekenmachine en voor omrekenen van valuta en meer!",
             "Schud je iPhone om je laatste typwerk ongedaan te maken. Echt waar.",
             "Zeg 'Hé Siri, wat speelt hier?' als je ergens een liedje hoort dat je wil kennen."
           ]
@@ -867,7 +867,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Een Kraks refurbished toestel is een gebruikt toestel dat volledig is nagekeken, hersteld waar nodig, en gepoetst tot het er weer piekfijn bijstaat. Bij Kraks doen we dat zelf, in ons eigen atelier, met originele onderdelen — vandaar die ⓚ."
+          "text": "Een Kraks refurbished toestel is een gebruikt toestel dat volledig is nagekeken, hersteld waar nodig, en gepoetst tot het er weer piekfijn bijstaat. Bij Kraks doen we dat zelf, in ons eigen atelier, met originele onderdelen, vandaar die ⓚ."
         },
         {
           "type": "text",
