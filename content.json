@@ -1,5 +1,5 @@
 {
-  "contentVersion": 5,
+  "contentVersion": 6,
   "minimumAppVersion": "1.0",
   "latestOS": {
     "iOS": "26.5",
@@ -713,7 +713,7 @@
       "id": "artikel-test",
       "date": "2026-07-11",
       "title": "test",
-      "summary": "zerfzfdgdfg",
+      "summary": "",
       "deviceTypes": [
         "iphone"
       ],
